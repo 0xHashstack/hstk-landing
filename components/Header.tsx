@@ -8,7 +8,7 @@ function Header() {
 		window.location.href = 'https://app.hashstack.finance/';
 	};
 	return (
-		<div className="w-full flex items-center justify-between py-6 sticky top-0">
+		<div className="w-full flex items-center justify-between py-6 sticky top-0 bg-white">
 			<div className="flex items-center gap-2">
 				<Image width={26} height={26} src="/logo.svg" alt="logo" />
 				<p className="text-[20px] font-medium">Hashstack</p>
