@@ -42,7 +42,7 @@ const RightLinks = [
 ];
 function Footer() {
 	return (
-		<div className="flex items-center  justify-center py-6 flex-wrap gap-4 md:justify-between">
+		<div className="flex items-center  px-4 md:px-5 justify-center py-6 flex-wrap gap-4 md:justify-between">
 			<div className="flex items-center gap-6">
 				{LeftLinks.map((link) => (
 					<Link
