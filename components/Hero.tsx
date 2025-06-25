@@ -8,7 +8,7 @@ function Hero() {
 	return (
 		<>
 			<div className="flex gap-6 flex-col md:flex-row mt-10 md:mt-0">
-				<div className="flex-1 flex flex-col gap-5">
+				<div className="flex-1 flex flex-col gap-5 md:pb-30">
 					<h1 className="text-4xl text-center md:text-left md:text-[58px] font-semibold leading-[100%]">
 						Thousands of traders trust Hashstack
 					</h1>
@@ -30,7 +30,7 @@ function Hero() {
 					</div>
 				</div>
 
-				<div className="flex-1 relative h-[50vh] hidden md:block">
+				<div className="flex-1 relative h-auto w-full hidden md:block">
 					<Image
 						src="/hero-image.svg"
 						alt="hero-image"
@@ -40,7 +40,7 @@ function Hero() {
 				</div>
 			</div>
 			<div className="flex w-full items-center">
-				<div className="relative h-[300px] w-[90vw]  -mb-6 block md:hidden">
+				<div className="relative h-[250px] w-[90vw]  -mb-6 block md:hidden">
 					<Image
 						src="/hero-image.svg"
 						alt="hero-image"
